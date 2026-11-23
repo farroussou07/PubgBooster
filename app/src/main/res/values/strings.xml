@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PUBG Ultra Booster</string>
+    <string name="shizuku_status_title">حالة Shizuku</string>
+    <string name="btn_request_shizuku">طلب صلاحية Shizuku</string>
+    <string name="btn_boost_all">⚡ تفعيل الأداء الفائق بضغطة واحدة</string>
+    <string name="btn_boost_fps">🎮 فك قفل 144Hz و 120 FPS</string>
+    <string name="btn_boost_network">🌐 تثبيت البينغ وتفعيل Gaming DNS</string>
+    <string name="btn_clear_powerkeeper">🛡️ إزالة قيود Joyose و Powerkeeper</string>
+</resources>
