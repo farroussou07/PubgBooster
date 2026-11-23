@@ -19,6 +19,8 @@ jobs:
 
     - name: Fix Missing Icons and Resources
       run: |
+        echo "android.useAndroidX=true" > gradle.properties
+        echo "android.nonTransitiveRClass=true" >> gradle.properties
         mkdir -p app/src/main/res/drawable
         cat << 'EOF' > app/src/main/res/drawable/ic_launcher.xml
         <vector xmlns:android="http://schemas.android.com/apk/res/android"
@@ -40,9 +42,6 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
-
-    - name: Setup Android SDK
-      uses: android-actions/setup-android@v3
 
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
